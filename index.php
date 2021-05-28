@@ -41,7 +41,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM mahasiswa ORDER BY id DESC"); // 
 						Program Pendidikan
 					</div>
 					<div class="cell" type="text" name="nama_lengkap">
-						Nama Lengkap
+						Nama
 					</div>
 					<div class="cell" type="text" name="email">
 						Email
@@ -59,7 +59,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM mahasiswa ORDER BY id DESC"); // 
 							<div class='cell' data-title='Program Pendidikan'>".
 							$res['program_pendidikan']."
 							</div>
-							<div class='cell' data-title='Nama Lengkap'>".
+							<div class='cell' data-title='Nama'>".
 							$res['nama_lengkap']."
 							</div>
 							<div class='cell' data-title='Email'>".
