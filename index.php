@@ -9,7 +9,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM mahasiswa ORDER BY id DESC"); // 
 
 <html>
 <head>	
-	<title>Homepage</title>
+	<title>Halaman Utama</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
