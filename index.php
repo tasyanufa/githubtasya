@@ -35,7 +35,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM mahasiswa ORDER BY id DESC"); // 
 	<div class="container-table100">
 		<div class="wrap-table100">
 			<div class="table">
-				<a href="add.html">Add New Data</a><br/><br/>
+				<a href="add.html">Tambahkan data</a><br/><br/>
 				<div class="row header">
 					<div class="cell" type="text" name="program_pendidikan">
 						Program Pendidikan
